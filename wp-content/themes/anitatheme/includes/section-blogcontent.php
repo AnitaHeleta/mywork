@@ -36,6 +36,7 @@ foreach($categories as $cat):?>
 
 <?php endforeach;?>
 
+<?php comments_template();?>
 
 
 
