@@ -8,32 +8,25 @@ header {
 	padding: 2rem 0;
 }
 
-.top-bar {
+header .top-bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	float: right;
-
-
+	display: flex;
 }
 
-.container {
-	display: flex 
+header .container {
+	display: flex ;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
 }
 
-.top-bar li {
-	display: inline-block;
-	margin-top: 40px;
-	padding: 30px;
-	
-}
+
 
 .top-bar li a:link,
 .top-bar li a:visited {
-    padding: 8px 0;
+    padding: 1rem;
     color: #5D5E03;
     text-decoration: none;
     text-transform: uppercase;
@@ -42,7 +35,19 @@ header {
     transition: border-bottom 0.2s;
 }
 
+.top-bar li:first-child a {
+	padding-left: 0;
+
+}
+
+
+.top-bar li:las-child a {
+	padding-right: 0;
+
+}
+
 .top-bar li a:hover,
 .top-bar li a:active {
     border-bottom: 2px solid #88891C;
 }
+
