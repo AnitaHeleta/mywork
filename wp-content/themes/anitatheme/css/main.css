@@ -120,3 +120,7 @@ footer .container {
 .page-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
+
+footer .top-bar li .sub-menu {
+	display: none;
+}
