@@ -22,11 +22,13 @@ header .container {
 	height: 100%;
 }
 
-
+header .top-bar li {
+	position: relative;
+}
 
 .top-bar li a:link,
 .top-bar li a:visited {
-    padding: 1rem;
+    padding: 1rem ;
     color: #5D5E03;
     text-decoration: none;
     text-transform: uppercase;
@@ -41,15 +43,50 @@ header .container {
 }
 
 
-.top-bar li:las-child a {
+.top-bar li:last-child a {
 	padding-right: 0;
 
 }
 
 .top-bar li a:hover,
 .top-bar li a:active {
-    border-bottom: 2px solid #88891C;
+	color: #5D5E03;
+	font-weight: bold;
+   /* border-bottom: 2px solid #88891C*/;
 }
+
+
+header .top-bar li .sub-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background: white;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+header .top-bar li .sub-menu a {
+	text-transform: none;
+	padding: .25rem;
+	text-align: center;
+	display: block;
+	margin-top: 1rem;
+	text-decoration: none;
+}
+
+header .top-bar .menu-item-has-children:hover .sub-menu {
+	display: block;
+	border: none;
+	transition: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 120px;
+
+	}
+
 
 footer {
 	position: absolute;
