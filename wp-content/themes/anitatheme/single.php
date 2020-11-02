@@ -1,7 +1,3 @@
-
-
-
-
 <body>
 <div class="page-container">
 	<?php get_header();?>
