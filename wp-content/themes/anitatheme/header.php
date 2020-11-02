@@ -7,7 +7,8 @@
 <?php load_css();?>
 <?php load_js();?>
 <?php get_header();?>
-
+<?php wp_enqueue_script('jquery'); ?>
+<?php wp_head(); ?>
 
 </head>
 <header>
