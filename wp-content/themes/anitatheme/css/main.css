@@ -143,6 +143,7 @@ footer .top-bar li .sub-menu {
 
 h1 {
 	color: #5E4F03;
+	font-size: 5rem;
 }
 
 
@@ -156,6 +157,5 @@ float: right;
 align-content: right;
 padding-top: 1rem;
 padding-right: 1rem;
-
-
 	}
+
