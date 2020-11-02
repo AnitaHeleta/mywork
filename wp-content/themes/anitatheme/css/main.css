@@ -149,3 +149,9 @@ h1 {
 	padding-top: 1rem;
 	padding-right: 1rem;
 }
+
+.btn-success {
+    color: #fff;
+    background-color: #5E4F03;
+    border-color: #5E4F03;
+}
