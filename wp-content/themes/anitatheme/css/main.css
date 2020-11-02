@@ -1,5 +1,10 @@
+
+body {
+	font-family: 'Playfair Display', serif;
+}
+
 header {
-	background: #1111;
+	background: white;
 	width: 100%;
 	height: 100px;
 }
@@ -92,7 +97,7 @@ header .top-bar .menu-item-has-children:hover .sub-menu {
 footer {
 	position: absolute;
 	bottom: 0 !important;
-	background: #1111;
+	background: white;
 	width: 100%;
 	height: 2.5rem;
 }
@@ -134,3 +139,23 @@ footer .top-bar li .sub-menu {
   width: 100%;
  
 }
+
+
+h1 {
+	color: #5E4F03;
+}
+
+
+.frontpage .the-title {
+display: none;
+}
+
+
+.searchbar {
+float: right;
+align-content: right;
+padding-top: 1rem;
+padding-right: 1rem;
+
+
+	}

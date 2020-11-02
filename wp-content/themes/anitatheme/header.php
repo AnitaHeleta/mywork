@@ -3,32 +3,33 @@
 <head>
 
 	<meta charset='UTF-8'>
-	<title>DOcument</title>
-
-
+	<title>Document</title>
 <?php load_css();?>
 <?php load_js();?>
 <?php get_header();?>
 
 
 </head>
-<body>
 <header>
 
 <div class="container">
 <?php
-
 	wp_nav_menu(
-
 	array(
-
 		'theme_location' => 'top-menu',
 		'menu_class' => 'top-bar'
-
 		)
-
 	);
+
 	?>
+	
+		
+
 </div>
+
+	<div class="searchbar">
+
+			<?php get_search_form();?>
+			</div>
 
 </header>
