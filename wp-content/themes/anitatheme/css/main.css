@@ -89,6 +89,7 @@ footer {
 	position: absolute;
 	bottom: 0 !important;
 	background: white;
+	padding-top: 10px;
 	width: 100%;
 	height: 2.5rem;
 }
@@ -148,6 +149,7 @@ h2 {
 
 h3 {
 	color: #B3A741;
+	font-size: 1.7rem;
 }
 
 
