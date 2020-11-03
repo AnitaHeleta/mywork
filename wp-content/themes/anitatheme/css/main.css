@@ -119,6 +119,8 @@ footer .container {
 
 .page-wrap .container {
 	max-width: none;
+	padding-left: 50px;
+	padding-right: 20px;
 }
 
 footer .top-bar li .sub-menu {
@@ -168,4 +170,16 @@ h3 {
     color: #fff;
     background-color: #5E4F03;
     border-color: #5E4F03;
+}
+
+div.simple-news-grid-con{
+	margin-top: 5%;
+}
+
+div.simple-news-con.news-column.simple-news-archive {
+	display: block;
+}
+
+div.simple-news-item{
+	margin: 10px;
 }
